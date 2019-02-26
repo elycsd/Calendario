@@ -54,6 +54,12 @@
     <Compile Include="Views\frmCalendario.Designer.cs">
       <DependentUpon>frmCalendario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\frmMateriaisAProduzir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmMateriaisAProduzir.Designer.cs">
+      <DependentUpon>frmMateriaisAProduzir.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\frmMatrizes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </Compile>
     <EmbeddedResource Include="Views\frmCalendario.resx">
       <DependentUpon>frmCalendario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmMateriaisAProduzir.resx">
+      <DependentUpon>frmMateriaisAProduzir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\frmMatrizes.resx">
       <DependentUpon>frmMatrizes.cs</DependentUpon>

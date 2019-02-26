@@ -68,6 +68,7 @@
             this.matrizesToolStripMenuItem.Name = "matrizesToolStripMenuItem";
             this.matrizesToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
             this.matrizesToolStripMenuItem.Text = "Matrizes";
+            this.matrizesToolStripMenuItem.Click += new System.EventHandler(this.matrizesToolStripMenuItem_Click);
             // 
             // materiaisAProduzirToolStripMenuItem
             // 
@@ -95,6 +96,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 524);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -104,6 +106,7 @@
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPrincipal";
+            this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
