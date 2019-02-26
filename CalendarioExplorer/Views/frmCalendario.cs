@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CalendarioExplorer.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace CalendarioExplorer.Views
         public frmCalendario()
         {
             InitializeComponent();
+        }
+
+        private void frmCalendario_Load(object sender, EventArgs e)
+        {
+            //label1.Text = ;
         }
     }
 }
